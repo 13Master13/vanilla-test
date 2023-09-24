@@ -19,24 +19,39 @@
 }
 
 .key-text-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
 .key-list-first {
   margin-top: 141px;
+  margin-bottom: 165px;
 }
 
 .key-item {
 }
 
+.key-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
 .key-item-title {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 13px;
 }
 
 .key-item-text {
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 220px;
 }
 
 .key-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .key-list-second {

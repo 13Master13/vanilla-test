@@ -35,4 +35,5 @@
 .nav-item-link {
   color: var(--c-white);
   font-size: 12px;
+  text-transform: uppercase;
 }
