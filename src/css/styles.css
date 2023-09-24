@@ -4,22 +4,24 @@
   | default @import url()
   |============================
 */
+@import url('../../node_modules/modern-normalize/modern-normalize.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./sections/section-hero.css');
+@import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, Montserrat, sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --c-white: #fff;
+  --c-black: #000;
+  --c-gray: #939eac;
+  --c-background: #06071b;
+  --lg-primary: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
 }

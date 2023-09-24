@@ -1,4 +1,52 @@
+.hero {
+  position: relative;
+  background-color: var(--c-background);
+  padding-top: 243px;
+  padding-bottom: 146px;
+}
+
+.hero-container {
+}
+
 .hero-title {
-  color: red;
-  background-color: antiquewhite;
+  color: var(--c-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+
+.hero-subtitle {
+  color: var(--c-white);
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero-list {
+  margin-bottom: 60px;
+}
+
+.hero-item {
+  color: var(--c-white);
+  font-weight: 700;
+}
+
+.hero-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.btn {
+  color: var(--c-white);
+  background-image: var(--lg-primary);
+  padding: 12px 60px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.hero-image {
+  position: absolute;
+  right: 11%;
+  top: 19%;
 }
