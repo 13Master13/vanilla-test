@@ -3,9 +3,7 @@
   background-color: var(--c-background);
   padding-top: 243px;
   padding-bottom: 146px;
-}
-
-.hero-container {
+  margin-bottom: 100px;
 }
 
 .hero-title {

@@ -1,0 +1,44 @@
+.section {
+}
+
+.key-section {
+}
+
+.key-title {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.key-text {
+  font-weight: 500;
+  text-align: center;
+  max-width: 886px;
+  margin: 0 auto 80px;
+}
+
+.key-text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.key-list-first {
+  margin-top: 141px;
+}
+
+.key-item {
+}
+
+.key-item-title {
+}
+
+.key-item-text {
+}
+
+.key-image {
+}
+
+.key-list-second {
+  margin-top: 141px;
+}
