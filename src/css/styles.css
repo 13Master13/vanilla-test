@@ -9,6 +9,8 @@
 @import url('./header.css');
 @import url('./sections/section-hero.css');
 @import url('./sections/section-key.css');
+@import url('./sections/section-video.css');
+@import url('./sections/section-team.css');
 @import url('./footer.css');
 
 :root {
