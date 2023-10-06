@@ -36,4 +36,9 @@
   color: var(--c-white);
   font-size: 12px;
   text-transform: uppercase;
+  transition: opacity 0.2s ease 0.2s;
+}
+
+.nav-item-link:hover {
+  opacity: 0.8;
 }
