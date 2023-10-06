@@ -1,0 +1,44 @@
+.header {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 26px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.header-logo {
+  color: var(--c-white);
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item-link {
+  color: var(--c-white);
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: opacity 0.2s ease 0.2s;
+}
+
+.nav-item-link:hover {
+  opacity: 0.8;
+}
